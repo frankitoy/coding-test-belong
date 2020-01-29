@@ -1,14 +1,23 @@
 {
-  "name": "cell-simulator",
+  "name": "coding-test-belong",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@types/jest": "24.0.11",
+    "@types/lodash": "^4.14.123",
+    "@types/node": "11.13.4",
+    "@types/react": "16.8.13",
+    "@types/react-dom": "16.8.3",
+    "lodash": "^4.17.11",
+    "materialize-css": "^1.0.0",
+    "node-sass": "^4.11.0",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.4.0",
     "@testing-library/user-event": "^7.2.1",
     "react": "^16.12.0",
-    "react-dom": "^16.12.0",
-    "react-scripts": "3.3.0"
+    "react-dom": "^16.8.6",
+    "react-scripts": "3.3.0",
+    "typescript": "3.4.3"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -30,5 +39,16 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.0.3",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-config-babel": "^9.0.0",
+    "eslint-config-prettier": "^6.10.0",
+    "eslint-plugin-import": "^2.20.0",
+    "eslint-plugin-prettier": "^3.1.2",
+    "eslint-plugin-react": "^7.18.0",
+    "prettier": "^1.19.1"
   }
 }
